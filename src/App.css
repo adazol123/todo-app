@@ -1,7 +1,12 @@
 .App {
   text-align: center;
+  border: #282c34 1px solid;
+  padding: 20px;
 }
+ h1 {
+  border: #282c34 1px solid;
 
+ }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -10,7 +15,8 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
+    -webkit-animation: App-logo-spin infinite 20s linear;
+}
 }
 
 .App-header {
