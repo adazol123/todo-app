@@ -5,9 +5,9 @@
 - Firebase firestore as the database
 - Firebase hosting to deploy the application on the web
 - Material UI for some basic design
-- ## host link: https://todo-app-adazolhub.web.app
+- ### hosted link: [Todo App](https://todo-app-adazolhub.web.app)
 ---
 ## Contributors
-- Daniel Lozada <dpadayao40@gmail.com>
+- [Daniel Lozada](dpadayao40@gmail.com)
 
 
