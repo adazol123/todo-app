@@ -25,12 +25,14 @@ const useStyles = makeStyles((theme) => ({
         fontSize: '24px',
     },
     modal: {
+        
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         
       },
     paper: {
+        borderRadius: 15,
         backgroundColor: theme.palette.background.paper,
         width: 450,
         border: '0px solid #000',
