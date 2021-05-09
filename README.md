@@ -1,5 +1,4 @@
-# Adazolhub | BASIC TODO APP
-**Version 0.001**
+# Adazolhub | BASIC TODO APP **Version 0.001**
 ---
 • build web application using React Js framework (useState, useEffect)
 • basic CRUD functionality on the Web application
