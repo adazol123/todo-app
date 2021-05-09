@@ -17,7 +17,7 @@ const useStyles = makeStyles((theme) => ({
     root: {
         borderRadius: 10,
         border: 0,
-        margin: 10,
+        margin:theme.spacing(1, -4, 1),
         width: '100%',
         maxWidth: '100%',
         backgroundColor: theme.palette.background.paper,

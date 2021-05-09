@@ -64,13 +64,14 @@ function App() {
     <div className="main">
       <div className="navigation-bar">
         <img src={adazolhubLogo} alt="" className="App-logo" />
-        <h1>Adazolhub</h1>
+        <h1 className="title">Adazolhub</h1>
+        <img alt="" className="App-logo" />
       </div>
       <div className="App">
         <h1>Basic Todo App 🚀 </h1>
         <form className="main-form">
 
-          <FormControl size="small" margin="dense" fullWidth="true" >
+          <FormControl size="medium" margin="dense" fullWidth="true" >
             <InputLabel>What's your plan today?</InputLabel>
             <Input value={input} onChange={event => setinput(event.target.value)}></Input>
           </FormControl>

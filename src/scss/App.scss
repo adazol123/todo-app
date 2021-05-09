@@ -15,6 +15,7 @@ body {
 .navigation-bar {
     display: grid;
     align-items: center;
+    justify-content: space-between;
     grid-auto-flow: column;
     text-transform: uppercase;
 }
@@ -25,6 +26,11 @@ body {
     align-items: flex-end;
     justify-content: center;
     height: 100px;
+}
+ul {
+  border: yellowgreen 1px solid;
+
+
 }
 
 .App {
@@ -42,30 +48,10 @@ body {
 }
 
 
-.btn-grad {background-image: linear-gradient(to right, #283048 0%, #859398  51%, #283048  100%)}
-.btn-grad {
-   margin: 10px;
-   padding: 15px 45px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   box-shadow: 0 0 20px #eee;
-   border-radius: 10px;
-   display: block;
- }
-
- .btn-grad:hover {
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
-
 
   .App-logo {
-    height: 60px;
-    pointer-events: none;
+    width: 70px;
+    
   }
   
   @media (prefers-reduced-motion: no-preference) {
