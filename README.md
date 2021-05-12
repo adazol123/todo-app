@@ -1,4 +1,6 @@
 # Adazolhub | Basic Todo App - **Version 0.001**
+
+![image of the app](/public/todo-app.png)
 ---
 - Build web application using React Js framework (useState, useEffect)
 - Basic CRUD functionality on the Web application
